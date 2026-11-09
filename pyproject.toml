@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "order-manager"
+version = "0.1.0"
+description = "Order management laboratory project for the course 'Professional Python' (Variant 7)"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.scripts]
+order-manager = "order_manager.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
