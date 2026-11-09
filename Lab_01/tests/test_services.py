@@ -94,3 +94,4 @@ def test_update_status_and_search() -> None:
     assert find_order_by_id(orders, "ORD-999") is None
     with pytest.raises(OrderNotFoundError):
         update_order_status(orders, "ORD-999", "shipped")
+

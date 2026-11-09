@@ -64,3 +64,4 @@ class Order:
     def final_price(self) -> float:
         """Calculate final payable price after applying discount."""
         return round(self.total_price - self.discount_amount, 2)
+

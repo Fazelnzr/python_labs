@@ -15,3 +15,4 @@ class OrderNotFoundError(OrderError):
 
 class DuplicateOrderError(OrderError):
     """Raised when attempting to add an order with an existing ID."""
+
