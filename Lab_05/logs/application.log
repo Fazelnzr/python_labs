@@ -1,0 +1,9 @@
+2026-11-21 21:43:17,817 | INFO | reliable_importer.utils | Student grades import/export started
+2026-11-21 21:43:17,819 | WARNING | reliable_importer.services | Invalid record at line 6 (field=name): Student name is empty
+2026-11-21 21:43:17,819 | WARNING | reliable_importer.services | Invalid record at line 7 (field=discipline): Discipline 'Астрологія та магія' is not in the allowed disciplines list
+2026-11-21 21:43:17,819 | WARNING | reliable_importer.services | Invalid record at line 8 (field=grade): Grade must be between 0 and 100
+2026-11-21 21:43:17,819 | WARNING | reliable_importer.services | Invalid record at line 9 (field=student_id): Invalid student ID: must be an integer
+2026-11-21 21:43:17,819 | WARNING | reliable_importer.services | Invalid record at line 10 (field=grade): Grade must be between 0 and 100
+2026-11-21 21:43:17,820 | WARNING | reliable_importer.services | Invalid record at line 14 (field=student_id): Student ID must be a positive integer (> 0)
+2026-11-21 21:43:17,825 | INFO | reliable_importer.utils | Student grades import/export finished in 0.007832 s
+2026-11-21 21:43:17,825 | INFO | __main__ | Total=14, valid=8, invalid=6, passed=6, below_threshold=2, exported=6

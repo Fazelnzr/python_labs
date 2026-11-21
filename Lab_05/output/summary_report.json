@@ -1,0 +1,79 @@
+{
+  "statistics": {
+    "total": 14,
+    "valid": 8,
+    "invalid": 6,
+    "passed": 6,
+    "failed_threshold": 2,
+    "exported": 6,
+    "error_count": 6
+  },
+  "errors": [
+    {
+      "line_number": 6,
+      "field": "name",
+      "message": "Student name is empty",
+      "raw_row": {
+        "student_id": "105",
+        "name": "",
+        "discipline": "Програмування на Python",
+        "grade": "78.0"
+      }
+    },
+    {
+      "line_number": 7,
+      "field": "discipline",
+      "message": "Discipline 'Астрологія та магія' is not in the allowed disciplines list",
+      "raw_row": {
+        "student_id": "106",
+        "name": "Новак Петро Олександрович",
+        "discipline": "Астрологія та магія",
+        "grade": "88.0"
+      }
+    },
+    {
+      "line_number": 8,
+      "field": "grade",
+      "message": "Grade must be between 0 and 100",
+      "raw_row": {
+        "student_id": "107",
+        "name": "Бойко Марія Андріївна",
+        "discipline": "Комп'ютерні мережі",
+        "grade": "105.0"
+      }
+    },
+    {
+      "line_number": 9,
+      "field": "student_id",
+      "message": "Invalid student ID: must be an integer",
+      "raw_row": {
+        "student_id": "abc",
+        "name": "Литвин Андрій Миколайович",
+        "discipline": "Операційні системи",
+        "grade": "85.0"
+      }
+    },
+    {
+      "line_number": 10,
+      "field": "grade",
+      "message": "Grade must be between 0 and 100",
+      "raw_row": {
+        "student_id": "109",
+        "name": "Ткаченко Олена Василівна",
+        "discipline": "Бази даних",
+        "grade": "-5.0"
+      }
+    },
+    {
+      "line_number": 14,
+      "field": "student_id",
+      "message": "Student ID must be a positive integer (> 0)",
+      "raw_row": {
+        "student_id": "-3",
+        "name": "Гнатюк Софія Романівна",
+        "discipline": "Програмування на Python",
+        "grade": "90.0"
+      }
+    }
+  ]
+}

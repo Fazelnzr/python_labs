@@ -1,0 +1,28 @@
+input:
+  path: data/grades.csv
+  format: auto
+
+output:
+  path: output/grades.json
+  format: auto
+  error_csv_path: output/invalid_records.csv
+  summary_report_path: output/summary_report.json
+  backup_existing: true
+
+processing:
+  passing_grade: 60.0
+  skip_invalid: true
+  allowed_disciplines:
+    - "Програмування на Python"
+    - "Алгоритми та структури даних"
+    - "Бази даних"
+    - "Комп'ютерні мережі"
+    - "Дискретна математика"
+    - "Операційні системи"
+
+logging:
+  level: INFO
+  path: logs/application.log
+  error_log_path: logs/errors.log
+  max_bytes: 1048576
+  backup_count: 3

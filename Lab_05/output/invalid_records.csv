@@ -1,0 +1,7 @@
+line_number,field,message,student_id,name,discipline,grade
+6,name,Student name is empty,105,,Програмування на Python,78.0
+7,discipline,Discipline 'Астрологія та магія' is not in the allowed disciplines list,106,Новак Петро Олександрович,Астрологія та магія,88.0
+8,grade,Grade must be between 0 and 100,107,Бойко Марія Андріївна,Комп'ютерні мережі,105.0
+9,student_id,Invalid student ID: must be an integer,abc,Литвин Андрій Миколайович,Операційні системи,85.0
+10,grade,Grade must be between 0 and 100,109,Ткаченко Олена Василівна,Бази даних,-5.0
+14,student_id,Student ID must be a positive integer (> 0),-3,Гнатюк Софія Романівна,Програмування на Python,90.0

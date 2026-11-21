@@ -1,0 +1,44 @@
+[
+  {
+    "student_id": 101,
+    "name": "Коваленко Анна Сергіївна",
+    "discipline": "Програмування на Python",
+    "grade": 95.5,
+    "passed": true
+  },
+  {
+    "student_id": 102,
+    "name": "Мельник Олег Ігорович",
+    "discipline": "Алгоритми та структури даних",
+    "grade": 82.0,
+    "passed": true
+  },
+  {
+    "student_id": 103,
+    "name": "Бондар Ірина Вікторівна",
+    "discipline": "Бази даних",
+    "grade": 91.0,
+    "passed": true
+  },
+  {
+    "student_id": 110,
+    "name": "Кравчук Дмитро Степанович",
+    "discipline": "Операційні системи",
+    "grade": 74.5,
+    "passed": true
+  },
+  {
+    "student_id": 111,
+    "name": "Савченко Вікторія Юріївна",
+    "discipline": "Комп'ютерні мережі",
+    "grade": 60.0,
+    "passed": true
+  },
+  {
+    "student_id": 114,
+    "name": "Поліщук Богдан Артемович",
+    "discipline": "Дискретна математика",
+    "grade": 89.2,
+    "passed": true
+  }
+]
