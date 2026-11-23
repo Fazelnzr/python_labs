@@ -1,0 +1,180 @@
+{
+  "report_id": "c9057bb0-3075-42b7-8f7f-814e7d21a656",
+  "generated_at": "2026-11-23T15:32:05.733768+00:00",
+  "passing_threshold": 60.0,
+  "honors_threshold": 90.0,
+  "mode": "standard",
+  "statistics": {
+    "total_students": 5,
+    "passed_students": 4,
+    "failed_students": 1,
+    "pass_rate": 80.0,
+    "absolute_success_rate": 80.0,
+    "quality_rate": 60.0,
+    "average_score": 76.4
+  },
+  "min_grade": 54.0,
+  "max_grade": 95.5,
+  "students_above_threshold_ids": [
+    101,
+    103,
+    102,
+    105
+  ],
+  "students": [
+    {
+      "student_id": 101,
+      "name": "Коваленко Анна Сергіївна",
+      "group": "ПІ-21",
+      "average_grade": 93.0,
+      "weighted_average_grade": 93.19,
+      "min_grade": 91.0,
+      "max_grade": 95.5,
+      "success_rate": 100.0,
+      "passed": true,
+      "honors": true,
+      "records": [
+        {
+          "discipline_code": "CS101",
+          "discipline_name": "Програмування на Python",
+          "credits": 5,
+          "grade": 95.5,
+          "ects": "A"
+        },
+        {
+          "discipline_code": "CS102",
+          "discipline_name": "Алгоритми та структури даних",
+          "credits": 4,
+          "grade": 91.0,
+          "ects": "A"
+        },
+        {
+          "discipline_code": "CS103",
+          "discipline_name": "Бази даних",
+          "credits": 4,
+          "grade": 92.5,
+          "ects": "A"
+        }
+      ]
+    },
+    {
+      "student_id": 103,
+      "name": "Бондар Ірина Вікторівна",
+      "group": "ПІ-21",
+      "average_grade": 86.0,
+      "weighted_average_grade": 86.22,
+      "min_grade": 84.0,
+      "max_grade": 88.0,
+      "success_rate": 100.0,
+      "passed": true,
+      "honors": false,
+      "records": [
+        {
+          "discipline_code": "CS101",
+          "discipline_name": "Програмування на Python",
+          "credits": 5,
+          "grade": 88.0,
+          "ects": "B"
+        },
+        {
+          "discipline_code": "CS104",
+          "discipline_name": "Комп'ютерні мережі",
+          "credits": 4,
+          "grade": 84.0,
+          "ects": "B"
+        }
+      ]
+    },
+    {
+      "student_id": 102,
+      "name": "Мельник Олег Ігорович",
+      "group": "ПІ-21",
+      "average_grade": 79.0,
+      "weighted_average_grade": 79.23,
+      "min_grade": 76.0,
+      "max_grade": 82.0,
+      "success_rate": 100.0,
+      "passed": true,
+      "honors": false,
+      "records": [
+        {
+          "discipline_code": "CS101",
+          "discipline_name": "Програмування на Python",
+          "credits": 5,
+          "grade": 82.0,
+          "ects": "B"
+        },
+        {
+          "discipline_code": "CS102",
+          "discipline_name": "Алгоритми та структури даних",
+          "credits": 4,
+          "grade": 76.0,
+          "ects": "C"
+        },
+        {
+          "discipline_code": "CS103",
+          "discipline_name": "Бази даних",
+          "credits": 4,
+          "grade": 79.0,
+          "ects": "C"
+        }
+      ]
+    },
+    {
+      "student_id": 105,
+      "name": "Савченко Вікторія Юріївна",
+      "group": "ПІ-22",
+      "average_grade": 68.0,
+      "weighted_average_grade": 68.0,
+      "min_grade": 65.0,
+      "max_grade": 71.0,
+      "success_rate": 100.0,
+      "passed": true,
+      "honors": false,
+      "records": [
+        {
+          "discipline_code": "CS104",
+          "discipline_name": "Комп'ютерні мережі",
+          "credits": 4,
+          "grade": 65.0,
+          "ects": "D"
+        },
+        {
+          "discipline_code": "CS106",
+          "discipline_name": "Операційні системи",
+          "credits": 4,
+          "grade": 71.0,
+          "ects": "D"
+        }
+      ]
+    },
+    {
+      "student_id": 104,
+      "name": "Шевченко Тарас Григорович",
+      "group": "ПІ-22",
+      "average_grade": 56.0,
+      "weighted_average_grade": 56.0,
+      "min_grade": 54.0,
+      "max_grade": 58.0,
+      "success_rate": 0.0,
+      "passed": false,
+      "honors": false,
+      "records": [
+        {
+          "discipline_code": "CS105",
+          "discipline_name": "Дискретна математика",
+          "credits": 4,
+          "grade": 54.0,
+          "ects": "FX"
+        },
+        {
+          "discipline_code": "CS106",
+          "discipline_name": "Операційні системи",
+          "credits": 4,
+          "grade": 58.0,
+          "ects": "FX"
+        }
+      ]
+    }
+  ]
+}

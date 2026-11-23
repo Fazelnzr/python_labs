@@ -1,0 +1,3 @@
+2026-11-23 17:11:32,113 | WARNING | grading.demo | Detected 1 student(s) with average grade below threshold 60.0
+2026-11-23 17:12:38,010 | WARNING | grading.demo | Detected 1 student(s) with average grade below threshold 60.0
+2026-11-23 17:32:05,735 | WARNING | grading.demo | Detected 1 student(s) with average grade below threshold 60.0
