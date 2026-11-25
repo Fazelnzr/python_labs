@@ -28,6 +28,9 @@ Lab_5/
 ├── config.yaml
 ├── README.md
 ├── REPORT.md
+├── report/
+│   ├── README.md
+│   └── Lab_05_Report.docx
 ├── data/
 │   └── grades.csv
 ├── output/
